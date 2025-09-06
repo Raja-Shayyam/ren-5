@@ -14,7 +14,8 @@ import { Login } from "../componenets/Login"
 
   // const socket = useMemo(() => io("http://localhost:3000"), [])
 function App({ id_name }) {
-  const socket = useMemo(() => io("http://192.168.10.3:3000"), [])
+  // const socket = useMemo(() => io("http://192.168.10.3:3000"), [])
+  const socket = useMemo(() => io("https://ren-5-67a5.vercel.app/"), [])
   console.log('----------------', socket.id);
 
   const [msg, setMsg] = useState('')

@@ -13,7 +13,7 @@ const server = createServer(App)
 
 const io = new Server(server, {
   cors: {
-    origin: '*',
+    origin:[ '*',"https://ren-5-tzsd.vercel.app/"],
     methods: ["GET", "POST"],
     credentials: true,
   }
