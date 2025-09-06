@@ -6,7 +6,7 @@ import App from './App.jsx'
 import { MainApp } from './mainApp.jsx';
 
 createRoot(document.getElementById('root')).render(
-  // <StrictMode>
-    <MainApp/>
-  // </StrictMode>,
+  <StrictMode>
+    <MainApp />
+  </StrictMode>,
 )
