@@ -14,7 +14,7 @@ const server = createServer(App)
 const io = new Server(server, {
   cors: {
     // origin:[ '*',"https://celebrated-toffee-5e72e2.netlify.app/"],
-    origin:"https://ren-5-l6tt.vercel.app/",
+    origin:"https://ren-5-l6tt.vercel.app",
     methods: ["GET", "POST"],
     credentials: true,
   }
